@@ -24,7 +24,7 @@ a {
 }
 
 .containerCustom {
-  padding: 0 3rem;
+  padding: 0 4rem;
 }
 
 .overlay {
@@ -119,6 +119,89 @@ header aside .sidebar .copyright {
   color: gray;
 }
 
+footer {
+  background-color: #2a254b;
+  padding: 4rem 0 2rem;
+}
+footer h6 {
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .footerContents {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footerContents .footerContent ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.75rem;
+}
+footer .footerContents .footerContent ul li a {
+  color: #fff;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .footerRight {
+  display: flex;
+  flex-direction: column;
+}
+footer .footerRight .footerMail {
+  margin: 1rem 0;
+  align-self: flex-end;
+}
+footer .footerRight .footerMail input {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 1.0625rem 20.8rem 1.0625rem 2rem;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+footer .footerRight .footerMail input::-moz-placeholder {
+  color: #fff;
+}
+footer .footerRight .footerMail input:-ms-input-placeholder {
+  color: #fff;
+}
+footer .footerRight .footerMail input::placeholder {
+  color: #fff;
+}
+footer .footerRight .footerMail button {
+  color: #2a254b;
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  margin-left: -5px;
+}
+footer .footerLine {
+  width: 100%;
+  height: 2px;
+  color: #4e4d93;
+}
+footer .footerBottom {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footerBottom span {
+  color: #fff;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .footerBottom .footerSocial {
+  display: flex;
+  -moz-column-gap: 1.2rem;
+       column-gap: 1.2rem;
+}
+footer .footerBottom .footerSocial i {
+  color: #fff;
+}
+
 @media only screen and (min-width: 576px) and (max-width: 768px) {
   .containerCustom {
     padding: 0 1.5rem;
@@ -136,6 +219,12 @@ header aside .sidebar .copyright {
   }
   header nav .navRight .searchArea input {
     width: 200px;
+  }
+  footer .footerRight .footerMail {
+    align-self: center;
+  }
+  footer .footerRight .footerMail input {
+    padding-right: 19rem !important;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -163,5 +252,14 @@ header aside .sidebar .copyright {
   }
   header nav .navRight i {
     font-size: 16px;
+  }
+  footer .footerMail {
+    align-self: center;
+  }
+  footer .footerMail input {
+    padding-right: 4rem !important;
+  }
+  footer .footerMail button {
+    padding: 1rem !important;
   }
 }/*# sourceMappingURL=layout.css.map */
