@@ -194,6 +194,39 @@ main #features .features .feature p {
   font-weight: 400;
   line-height: 150%; /* 1.5rem */
 }
+main #idea {
+  padding: 3.75rem 0;
+}
+main #idea .idea-content {
+  background-color: #2a254b;
+  padding: 4rem;
+  height: 29rem;
+  margin-bottom: 1.5rem;
+}
+main #idea .idea-content h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main #idea .idea-content p {
+  color: #fff;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 10rem;
+}
+main #idea .idea-content a {
+  padding: 1rem 2rem;
+  background: rgba(249, 249, 249, 0.15);
+  color: white;
+}
+main #idea img {
+  width: 100%;
+  height: 29rem;
+}
 main #subscribe {
   padding: 6rem;
 }
@@ -469,6 +502,9 @@ footer .footerBottom .footerSocial i {
     width: 100%;
     display: block;
     text-align: center;
+  }
+  main #idea .idea-content p {
+    padding-bottom: 8rem !important;
   }
   main #subscribe {
     padding: 0 !important;
