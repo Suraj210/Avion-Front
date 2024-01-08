@@ -375,6 +375,39 @@ footer .footerBottom .footerSocial i {
     display: block;
     text-align: center;
   }
+  main #subscribe {
+    padding: 0 !important;
+  }
+  main #subscribe h2 {
+    width: 20rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 2.1rem */
+    text-align: left;
+    padding-top: 2.5rem;
+  }
+  main #subscribe p {
+    width: 20rem;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+    text-align: left;
+    margin-left: 0 !important;
+    padding-bottom: 1.25rem;
+  }
+  main #subscribe .subscribeOptions {
+    display: initial;
+  }
+  main #subscribe .subscribeMail {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 2.5rem;
+  }
+  main #subscribe .subscribeMail input {
+    padding-right: 2rem !important;
+  }
   footer .footerRight {
     margin: 0 auto;
   }
@@ -436,6 +469,39 @@ footer .footerBottom .footerSocial i {
     width: 100%;
     display: block;
     text-align: center;
+  }
+  main #subscribe {
+    padding: 0 !important;
+  }
+  main #subscribe h2 {
+    width: 20rem;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 2.1rem */
+    text-align: left;
+    padding-top: 2.5rem;
+  }
+  main #subscribe p {
+    width: 20rem;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.3125rem */
+    text-align: left;
+    margin-left: 0 !important;
+    padding-bottom: 1.25rem;
+  }
+  main #subscribe .subscribeOptions {
+    display: initial;
+  }
+  main #subscribe .subscribeMail {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 2.5rem;
+  }
+  main #subscribe .subscribeMail input {
+    padding-right: 2rem !important;
   }
   footer .footerRight {
     margin: 0 auto;
