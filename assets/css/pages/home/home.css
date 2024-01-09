@@ -1,3 +1,10 @@
+.readMore {
+  padding: 1rem 2rem;
+  background-color: #f9f9f9;
+  color: #2a254b;
+  cursor: pointer;
+}
+
 main #hero .heroImg {
   position: relative;
   height: 47rem;
@@ -30,11 +37,6 @@ main #hero .heroContent p {
   font-weight: 400;
   line-height: 150%; /* 1.6875rem */
   padding: 1.25rem 0 9.81rem;
-}
-main #hero .heroContent a {
-  padding: 1rem 2rem;
-  background-color: #f9f9f9;
-  color: #2a254b;
 }
 main #features {
   padding: 5rem 0;
@@ -105,6 +107,65 @@ main #idea .idea-content a {
 main #idea img {
   width: 100%;
   height: 29rem;
+}
+main #blog {
+  padding: 4rem 0;
+}
+main #blog .blogHeader h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 2.8rem */
+}
+main #blog .blogHeader p {
+  text-align: center;
+  color: rgb(19, 18, 18);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  padding-bottom: 3rem;
+}
+main #blog .blogContainer .blog {
+  margin-bottom: 5.5rem;
+}
+main #blog .blogContainer .blog .blogImg {
+  width: 100%;
+  overflow: hidden;
+}
+main #blog .blogContainer .blog .blogImg img {
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+main #blog .blogContainer .blog .blogImg img:hover {
+  transform: scale(1.05);
+}
+main #blog .blogContainer .blog .blogContent {
+  padding-top: 1.75rem;
+}
+main #blog .blogContainer .blog .blogContent .blogCategory {
+  background-color: #4e4d93;
+  padding: 4px 8px;
+  color: #fff;
+}
+main #blog .blogContainer .blog .blogContent .blogDate {
+  padding-left: 1.5rem;
+}
+main #blog .blogContainer .blog .blogContent h3 {
+  margin-top: 1.75rem;
+  color: var(--Dark-Primary, #2a254b);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 2.1rem */
+}
+main #blog .readMore {
+  margin: 0 auto !important;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 main #subscribe {
   padding: 6rem;
