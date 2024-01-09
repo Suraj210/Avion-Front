@@ -1,3 +1,43 @@
+$(document).ready(function () {
+  $("div[data-slick]").slick();
+  $(".product-container").slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+    ],
+  });
+});
+
 // Card Js
 
 let buy = document.querySelectorAll("#products .buy");
@@ -14,14 +54,6 @@ remove.forEach((elem) => {
     this.parentNode.parentNode.classList.remove("clicked");
   });
 });
-
-// $(".buy").click(function () {
-//   $(".bottom").addClass("clicked");
-// });
-
-// $(".remove").click(function () {
-//   $(".bottom").removeClass("clicked");
-// });
 
 // Card wishlist Js
 
