@@ -5,6 +5,12 @@
   background-color: #f9f9f9;
   color: #2a254b;
   cursor: pointer;
+  transition: all 0.3s;
+  width: fit-content;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 main {
@@ -41,6 +47,28 @@ main {
         font-weight: 400;
         line-height: 150%; /* 1.6875rem */
         padding: 1.25rem 0 9.81rem;
+      }
+    }
+  }
+
+  // Ad Section
+
+  #ad {
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 2.8rem */
+      margin-bottom: 3rem;
+    }
+    .ads {
+      .ad {
+        img {
+          width: 100%;
+          height: 20rem;
+          margin-bottom: 3rem;
+        }
       }
     }
   }
@@ -83,6 +111,17 @@ main {
           font-weight: 400;
           line-height: 150%; /* 1.5rem */
         }
+      }
+    }
+  }
+
+  // Brand Section
+
+  #brand {
+    padding: 4rem 0;
+    .brandImg {
+      img {
+        margin: 0 auto;
       }
     }
   }
@@ -187,7 +226,6 @@ main {
 
     .readMore {
       margin: 0 auto !important;
-      width: fit-content;
     }
   }
   // Subscribe Section
@@ -235,7 +273,7 @@ main {
     }
 
     .subscribeMail {
-      margin: 75px 0;
+      margin: 75px 0 0;
       text-align: center;
       input {
         padding: 0.95rem 12.8125rem 0.95rem 2rem;
@@ -282,6 +320,26 @@ main {
       }
     }
 
+    // Ad Section
+
+    #ad {
+      h2 {
+        text-align: center;
+
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 2.8rem */
+      }
+      .ads {
+        .ad {
+          img {
+            height: initial;
+          }
+        }
+      }
+    }
+
     // Subscribe Section
 
     #subscribe {
@@ -311,7 +369,7 @@ main {
       .subscribeMail {
         width: 100%;
         text-align: left;
-        padding-bottom: 2.5rem;
+        padding-bottom: 3.5rem;
         input {
           padding-right: 2rem !important;
         }
@@ -356,6 +414,27 @@ main {
       }
     }
 
+    // Ad Section
+
+    #ad {
+      .ads {
+        .ad {
+          img {
+            height: initial;
+          }
+        }
+      }
+    }
+
+    #brand {
+      .slick-next {
+        display: none !important;
+      }
+      .slick-prev {
+        display: none !important;
+      }
+    }
+
     // Idea Section
 
     #idea {
@@ -394,7 +473,7 @@ main {
       .subscribeMail {
         width: 100%;
         text-align: left;
-        padding-bottom: 2.5rem;
+        padding-bottom: 3.5rem;
         input {
           padding-right: 2rem !important;
         }
