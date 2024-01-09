@@ -19,12 +19,12 @@ main #products .productsHeader h2 {
 }
 main #products .product-container .slick-prev::before {
   content: "←";
-  color: black;
+  color: #2a254b;
   font-size: 30px;
 }
 main #products .product-container .slick-next:before {
   content: "→";
-  color: black;
+  color: #2a254b;
   font-size: 30px;
 }
 main #products .product-container .product {
@@ -223,10 +223,10 @@ main #products .product-container .product .wrapper .inside .contents p {
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
   #products .product-container .slick-next:before {
-    content: "" !important;
+    display: none;
   }
   #products .product-container .slick-prev:before {
-    content: "" !important;
+    display: none;
   }
   #products .product-container .product .wrapper {
     width: 270px !important;
@@ -234,11 +234,11 @@ main #products .product-container .product .wrapper .inside .contents p {
   }
 }
 @media only screen and (max-width: 576px) {
-  #products .product-container .slick-next:before {
-    content: "" !important;
+  #products .product-container .slick-next {
+    display: none !important;
   }
-  #products .product-container .slick-prev:before {
-    content: "" !important;
+  #products .product-container .slick-prev {
+    display: none !important;
   }
   #products .product-container .product .wrapper {
     width: 80% !important;

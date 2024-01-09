@@ -25,10 +25,6 @@ a {
 
 // Helper Classes
 
-.containerCustom {
-  padding: 0 4rem;
-}
-
 .overlay {
   position: fixed;
   width: 100%;
@@ -77,6 +73,8 @@ header {
           width: 128px;
           height: 28px;
           outline: none;
+          border: 1px solid #2a254b;
+          border-radius: 5px;
         }
         i {
           position: absolute;
@@ -218,9 +216,6 @@ footer {
 
 // Tablet Size
 @media only screen and (min-width: 576px) and (max-width: 768px) {
-  .containerCustom {
-    padding: 0 1.5rem;
-  }
   header {
     nav {
       .header-logo {
@@ -260,9 +255,6 @@ footer {
 
 // Phone Size
 @media only screen and (max-width: 576px) {
-  .containerCustom {
-    padding: 0 0.5rem;
-  }
   header {
     nav {
       .header-logo {

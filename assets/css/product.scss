@@ -22,13 +22,13 @@ main {
     .product-container {
       .slick-prev::before {
         content: "←";
-        color: black;
+        color: #2a254b;
         font-size: 30px;
       }
 
       .slick-next:before {
         content: "→";
-        color: black;
+        color: #2a254b;
         font-size: 30px;
       }
       .product {
@@ -237,11 +237,11 @@ main {
   #products {
     .product-container {
       .slick-next:before {
-        content: "" !important;
+        display: none;
       }
 
       .slick-prev:before {
-        content: "" !important;
+        display: none;
       }
       .product {
         .wrapper {
@@ -257,12 +257,12 @@ main {
 @media only screen and (max-width: 576px) {
   #products {
     .product-container {
-      .slick-next:before {
-        content: "" !important;
+      .slick-next {
+        display: none !important;
       }
 
-      .slick-prev:before {
-        content: "" !important;
+      .slick-prev {
+        display: none !important;
       }
       .product {
         .wrapper {
