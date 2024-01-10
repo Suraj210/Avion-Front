@@ -17,7 +17,7 @@ button {
 #contact {
   width: 100%;
   height: 100%;
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 #contact .container {
   background-color: #ebe8f4;
@@ -170,67 +170,35 @@ button {
   border-color: #2a254b;
 }
 
-/* Begin Media Queries*/
-@media screen and (max-width: 850px) {
-  .contact-wrapper {
-    display: flex !important;
-    flex-direction: column;
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  #contact .contact-wrapper {
+    flex-direction: column !important;
+    align-items: center;
   }
-  .contact-wrapper .direct-contact-container,
-.contact-wrapper .form-horizontal {
-    margin: 0 auto;
-  }
-  .contact-wrapper .direct-contact-container {
-    margin-top: 60px;
-    max-width: 300px;
-  }
-  .contact-wrapper .social-media-list li {
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-  }
-  .contact-wrapper .social-media-list li:after {
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
+  #contact .contact-wrapper .direct-contact-container {
+    margin-top: 3rem;
   }
 }
-@media screen and (max-width: 569px) {
-  .direct-contact-container,
-.form-wrapper {
-    float: none;
-    margin: 0 auto;
+@media only screen and (max-width: 576px) {
+  #contact {
+    padding-top: 1rem !important;
   }
-  .form-control,
-textarea {
-    margin: 0 auto;
+  #contact .contact-wrapper {
+    flex-direction: column !important;
+    align-items: center;
   }
-  .name,
-.email,
-textarea {
-    width: 280px;
+  #contact .contact-wrapper .form-control,
+#contact .contact-wrapper textarea {
+    max-width: 310px !important;
   }
-  .direct-contact-container {
-    margin-top: 60px;
-    max-width: 280px;
+  #contact .contact-wrapper button {
+    width: 310px !important;
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
   }
-  .social-media-list {
-    left: 0;
-  }
-  .social-media-list li {
-    height: 55px;
-    width: 55px;
-    line-height: 55px;
-    font-size: 2rem;
-  }
-  .social-media-list li:after {
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
+  #contact .contact-wrapper .direct-contact-container {
+    margin-top: 3rem;
   }
 }
-@media screen and (max-width: 410px) {
-  .send-button {
-    width: 99%;
-  }
-}/*# sourceMappingURL=contact.css.map */
+/* Begin Media Queries*//*# sourceMappingURL=contact.css.map */
