@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <title>Contact</title>
     <!-- Title Logo -->
     <link
       rel="icon"
@@ -26,6 +26,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -34,13 +35,11 @@
       crossorigin="anonymous"
     />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/features.css" />
-    <link rel="stylesheet" href="./assets/css/pages/about/about.css" />
     <link rel="stylesheet" href="./assets/css/pages/layout/layout.css" />
+    <link rel="stylesheet" href="./assets/css/pages/contact/contact.css" />
   </head>
   <body>
     <!-- Header Section -->
-
     <header>
       <div class="container">
         <nav>
@@ -102,106 +101,119 @@
 
     <!-- Main Part -->
     <main>
-      <section id="aboutPage">
+      <section id="contact">
         <div class="container">
-          <h2>
-            A brand built on the love of craftmanship, quality and outstanding
-            customer service
-          </h2>
-          <div class="aboutPage-content row">
-            <div class="aboutPage-content--left col-md-6">
-              <div>
-                <h2>
-                  From a studio in London to a global brand with over 400
-                  outlets
-                </h2>
-                <p>
-                  When we started Avion, the idea was simple. Make high quality
-                  furniture affordable and available for the mass market.
-                  <br />
-                  <br />
-                  Handmade, and lovingly crafted furniture and homeware is what
-                  we live, breathe and design so our Chelsea boutique become the
-                  hotbed for the London interior design community.
-                </p>
+          <h1 class="section-header">Let's Talk</h1>
+          <div class="contact-wrapper">
+            <!-- Left contact page -->
+
+            <form id="contact-form" class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="NAME"
+                    name="name"
+                    value=""
+                    required
+                  />
+                </div>
               </div>
-              <div class="readMore">
-                <a href="">Get in touch</a>
+
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="EMAIL"
+                    name="email"
+                    value=""
+                    required
+                  />
+                </div>
               </div>
-            </div>
-            <div class="aboutPage-content--right col-md-6">
-              <img src="./assets/images/about-1.jpeg" alt="" />
-            </div>
-          </div>
-          <div class="aboutPage-content row">
-            <div class="aboutPage-content--left col-md-6">
-              <div>
-                <h2>
-                  Our service isn’t just personal, it’s actually hyper
-                  personally exquisite
-                </h2>
-                <p>
-                  When we started Avion, the idea was simple. Make high quality
-                  furniture affordable and available for the mass market.
-                  <br />
-                  <br />
-                  Handmade, and lovingly crafted furniture and homeware is what
-                  we live, breathe and design so our Chelsea boutique become the
-                  hotbed for the London interior design community.
-                </p>
-              </div>
-              <div class="readMore">
-                <a href="">Get in touch</a>
-              </div>
-            </div>
-            <div class="aboutPage-content--right col-md-6">
-              <img src="./assets/images/about-2.jpeg" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Features Section -->
-      <section id="features">
-        <div class="container">
-          <h3>What makes our brand different</h3>
-          <div class="row features">
-            <div class="col-lg-3">
-              <div class="feature">
-                <img src="./assets/images/Delivery.png" alt="" />
-                <h4>Next day as standard</h4>
-                <p>
-                  Order before 3pm and get your order the next day as standard
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="feature">
-                <img src="./assets/images/Checkmark--outline.png" alt="" />
-                <h4>Made by true artisans</h4>
-                <p>
-                  Handmade crafted goods made with real passion and craftmanship
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="feature">
-                <img src="./assets/images/Purchase.png" alt="" />
-                <h4>Unbeatable prices</h4>
-                <p>
-                  For our materials and quality you won’t find better prices
-                  anywhere
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="feature">
-                <img src="./assets/images/Sprout.png" alt="" />
-                <h4>Recycled packaging</h4>
-                <p>
-                  We use 100% recycled to ensure our footprint is more
-                  manageable
-                </p>
-              </div>
+
+              <textarea
+                class="form-control"
+                rows="10"
+                placeholder="MESSAGE"
+                name="message"
+                required
+              ></textarea>
+
+              <button
+                class="btn btn-primary send-button"
+                id="submit"
+                type="submit"
+                value="SEND"
+              >
+                <div class="alt-send-button">
+                  <i class="fa fa-paper-plane"></i
+                  ><span class="send-text">SEND</span>
+                </div>
+              </button>
+            </form>
+
+            <!-- Left contact page -->
+
+            <div class="direct-contact-container">
+              <ul class="contact-list">
+                <li class="list-item">
+                  <i class="fa fa-map-marker fa-2x"
+                    ><span class="contact-text place">City, State</span></i
+                  >
+                </li>
+
+                <li class="list-item">
+                  <i class="fa fa-phone fa-2x"
+                    ><span class="contact-text phone"
+                      ><a href="tel:1-212-555-5555" title="Give me a call"
+                        >(212) 555-2368</a
+                      ></span
+                    ></i
+                  >
+                </li>
+
+                <li class="list-item">
+                  <i class="fa fa-envelope fa-2x"
+                    ><span class="contact-text gmail"
+                      ><a href="mailto:#" title="Send me an email"
+                        >hitmeup@gmail.com</a
+                      ></span
+                    ></i
+                  >
+                </li>
+              </ul>
+
+              <hr />
+              <ul class="social-media-list">
+                <li>
+                  <a href="#" target="_blank" class="contact-icon">
+                    <i class="fa-brands fa-x-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" class="contact-icon">
+                    <i class="fa-brands fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" class="contact-icon">
+                    <i class="fa-brands fa-pinterest" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" class="contact-icon">
+                    <i class="fa-brands fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+              <hr />
+
+              <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
             </div>
           </div>
         </div>
@@ -273,7 +285,6 @@
       </div>
     </footer>
     <div class="overlay d-none"></div>
-
     <!-- Jquery-->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
@@ -281,6 +292,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
+    <!-- Slick Slider -->
+    <script type="text/javascript" src="./assets/slick/slick.min.js"></script>
+
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
