@@ -58,43 +58,6 @@ main #ad .ads .ad img {
   height: 20rem;
   margin-bottom: 3rem;
 }
-main #features {
-  padding: 5rem 0;
-}
-main #features h3 {
-  text-align: center;
-  color: #2a254b;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; /* 2.1rem */
-}
-main #features .features .feature {
-  padding: 2.5rem;
-  background-color: #f9f9f9;
-  width: 98%;
-  margin: 20px 0;
-  height: 250px;
-}
-main #features .features .feature img {
-  width: 35px;
-}
-main #features .features .feature h4 {
-  color: #2a254b;
-  font-size: 1.25rem;
-  padding: 0.75rem 0;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; /* 1.75rem */
-}
-main #features .features .feature p {
-  color: #2a254b;
-  width: 100%;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%; /* 1.5rem */
-}
 main #brand {
   padding: 4rem 0;
 }
