@@ -1,8 +1,8 @@
 $color_1: #333;
 $color_2: #777;
 $color_3: #fff;
-$color_5: #2a254b;
-$color_4: #4e4d93;
+$color_4: #007bff;
+$color_5: #0056b3;
 $font-family_1: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 $background-color_1: #f2f2f2;
 $background-color_2: #fff;
@@ -25,12 +25,8 @@ $border-color_1: #cac6da;
     display: flex;
     flex-direction: column;
     h1 {
-      margin-bottom: 10px;
+      margin-bottom: 2rem;
       color: $color_1;
-    }
-    p {
-      margin-bottom: 2rem !important;
-      color: $color_2;
     }
   }
   .input-group {
@@ -59,24 +55,6 @@ $border-color_1: #cac6da;
     transition: background-color 0.3s ease;
     &:hover {
       background-color: $background-color_4;
-    }
-  }
-  .bottom-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-    color: $color_2;
-    p {
-      margin-bottom: 10px;
-    }
-    a {
-      color: $color_4;
-      text-decoration: none;
-      transition: color 0.3s ease;
-      &:hover {
-        color: $color_5;
-      }
     }
   }
 }
