@@ -53,6 +53,67 @@ main #aboutPage .aboutPage-content .aboutPage-content--right img {
   width: 100%;
   height: 30rem;
 }
-main #aboutPage:first-child div:nth-child(1) {
-  background-color: teal;
+main #aboutPage:first-child div:nth-child(3) {
+  flex-direction: row-reverse;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  #aboutPage {
+    padding: 5rem 0;
+  }
+  #aboutPage h2 {
+    width: 100% !important;
+    margin: 0 auto;
+    color: #2a254b;
+    font-size: 2rem;
+  }
+  #aboutPage .aboutPage-content {
+    margin-top: 6rem !important;
+  }
+  #aboutPage .aboutPage-content .aboutPage-content--left {
+    height: 100% !important;
+    display: initial !important;
+  }
+  #aboutPage .aboutPage-content .aboutPage-content--left p {
+    width: 100% !important;
+  }
+  #aboutPage .aboutPage-content .aboutPage-content--left .readMore {
+    width: 100%;
+    text-align: center;
+    margin: 5rem 0 3rem;
+  }
+  #aboutPage .aboutPage-content .aboutPage-content--right img {
+    width: 100%;
+    height: 30rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #aboutPage {
+    padding: 5rem 0;
+  }
+  #aboutPage h2 {
+    width: 100% !important;
+    margin: 0 auto;
+    color: #2a254b;
+    font-size: 2rem;
+  }
+  #aboutPage .aboutPage-content {
+    margin-top: 6rem !important;
+  }
+  #aboutPage .aboutPage-content .aboutPage-content--left {
+    height: 100% !important;
+    display: initial !important;
+  }
+  #aboutPage .aboutPage-content .aboutPage-content--left p {
+    width: 100% !important;
+  }
+  #aboutPage .aboutPage-content .aboutPage-content--left .readMore {
+    width: 100%;
+    text-align: center;
+    margin: 5rem 0 3rem;
+  }
+  #aboutPage .aboutPage-content .aboutPage-content--right img {
+    width: 100%;
+    height: 30rem;
+  }
 }/*# sourceMappingURL=about.css.map */
