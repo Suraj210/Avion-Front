@@ -169,9 +169,10 @@ footer {
       align-self: flex-end;
       input {
         background: rgba(255, 255, 255, 0.15);
-        padding: 1.0625rem 20.8rem 1.0625rem 2rem;
+        padding: 1.0625rem 14rem 1.0625rem 2rem;
         outline: none;
         border: none;
+        width: 70%;
         color: #fff;
         &::placeholder {
           color: #fff;
