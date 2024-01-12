@@ -1,16 +1,16 @@
-main #cart {
+main #wishlist {
   padding: 3rem 0;
 }
-main #cart button,
-main #cart .checkoutBtn {
+main #wishlist button,
+main #wishlist .checkoutBtn {
   background-color: #2a254b !important;
   border: none;
 }
-main #cart button:hover,
-main #cart .checkoutBtn:hover {
+main #wishlist button:hover,
+main #wishlist .checkoutBtn:hover {
   background-color: #4e4d93 !important;
 }
-main #cart h1 {
+main #wishlist h1 {
   color: #2a254b;
   font-size: 2.25rem;
   font-style: normal;
@@ -18,16 +18,16 @@ main #cart h1 {
   line-height: 140%; /* 3.15rem */
   text-align: center;
 }
-main #cart p {
+main #wishlist p {
   margin-bottom: 1rem !important;
 }
-main #cart .form-outline {
+main #wishlist .form-outline {
   display: flex;
   align-items: center;
 }
-main #cart .form-outline input {
+main #wishlist .form-outline input {
   text-align: center;
 }
-main #cart .form-outline label {
+main #wishlist .form-outline label {
   margin-bottom: 0 !important;
-}/*# sourceMappingURL=cart.css.map */
+}/*# sourceMappingURL=wishlist.css.map */
