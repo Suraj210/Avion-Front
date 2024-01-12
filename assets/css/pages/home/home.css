@@ -139,62 +139,6 @@ main #testimonial #carouselExample .carousel-control-next-icon {
   background-color: #2a254b;
   border-radius: 5px;
 }
-main #blog {
-  padding: 4rem 0;
-}
-main #blog .blogHeader h2 {
-  text-align: center;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; /* 2.8rem */
-}
-main #blog .blogHeader p {
-  text-align: center;
-  color: rgb(19, 18, 18);
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 27px;
-  padding-bottom: 3rem;
-}
-main #blog .blogContainer .blog {
-  margin-bottom: 5.5rem;
-}
-main #blog .blogContainer .blog .blogImg {
-  width: 100%;
-  overflow: hidden;
-}
-main #blog .blogContainer .blog .blogImg img {
-  width: 100%;
-  cursor: pointer;
-  transition: all 0.5s;
-}
-main #blog .blogContainer .blog .blogImg img:hover {
-  transform: scale(1.05);
-}
-main #blog .blogContainer .blog .blogContent {
-  padding-top: 1.75rem;
-}
-main #blog .blogContainer .blog .blogContent .blogCategory {
-  background-color: #4e4d93;
-  padding: 4px 8px;
-  color: #fff;
-}
-main #blog .blogContainer .blog .blogContent .blogDate {
-  padding-left: 1.5rem;
-}
-main #blog .blogContainer .blog .blogContent h3 {
-  margin-top: 1.75rem;
-  color: var(--Dark-Primary, #2a254b);
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; /* 2.1rem */
-}
-main #blog .readMore {
-  margin: 0 auto !important;
-}
 main #subscribe {
   padding: 6rem;
 }
