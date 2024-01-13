@@ -241,6 +241,6 @@ main #products .product-container .product .wrapper .inside .contents p {
     display: none !important;
   }
   #products .product-container .product .wrapper {
-    width: 80% !important;
+    width: 100% !important;
   }
 }/*# sourceMappingURL=product.css.map */
