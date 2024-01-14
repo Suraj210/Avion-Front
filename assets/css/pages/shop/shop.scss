@@ -25,7 +25,7 @@ main {
         padding-bottom: 1.75rem;
       }
       ul {
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
         li {
           color: #2a254b;
           padding-bottom: 0.75rem;
@@ -38,12 +38,19 @@ main {
           }
         }
       }
+      a.filter {
+        background-color: #2a254b;
+        color: #fff;
+        padding: 0.5rem;
+        text-align: center;
+        display: inline-block;
+        margin-bottom: 3rem;
+      }
       .card {
         width: 100%;
         padding: 0 !important;
         box-shadow: none;
         border: none;
-        margin-bottom: 3rem;
         .range-slider {
           width: 100%;
           .range-fill {
@@ -54,6 +61,21 @@ main {
     }
     #products {
       padding: 3rem 0 !important;
+      .form-select {
+        width: fit-content !important;
+        display: inline;
+      }
+    }
+    .pagination {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 2rem;
+
+      li {
+        a {
+          color: #2a254b !important;
+        }
+      }
     }
   }
 }

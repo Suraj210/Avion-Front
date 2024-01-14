@@ -126,6 +126,7 @@
                   <li><input type="checkbox" name="" id="" />Light fittings</li>
                   <li><input type="checkbox" name="" id="" />Accessories</li>
                 </ul>
+                <hr />
                 <h5>Price</h5>
                 <div class="card">
                   <div class="price-content">
@@ -161,6 +162,8 @@
                     />
                   </div>
                 </div>
+                <a class="filter" href="">Filter</a>
+                <hr />
 
                 <h5>Brands</h5>
                 <ul>
@@ -174,6 +177,15 @@
             <div class="col-md-9">
               <!-- Products -->
               <div id="products">
+                <span>Sort by: </span>
+                <select class="form-select" aria-label="Default select example">
+                  <option value="1">Date Added</option>
+                  <option value="2">Alphabetically A-Z</option>
+                  <option value="3">Alphabetically Z-A</option>
+                  <option value="4">Price High-Low</option>
+                  <option value="5">Price Low-High</option>
+                </select>
+
                 <div class="product-container row">
                   <div class="col-md-4">
                     <div class="product">
@@ -1045,6 +1057,27 @@
               </div>
             </div>
           </div>
+          <nav class="" aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item active">
+                <a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </section>
     </main>
