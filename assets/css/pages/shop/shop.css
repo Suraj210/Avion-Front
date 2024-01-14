@@ -13,6 +13,9 @@ main #shop .shopHeader h1 {
 }
 main #shop .shopFilters {
   padding: 3rem 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 main #shop .shopFilters h5 {
   color: #2a254b;

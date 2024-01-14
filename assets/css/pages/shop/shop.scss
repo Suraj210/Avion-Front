@@ -16,6 +16,8 @@ main {
     }
     .shopFilters {
       padding: 3rem 0;
+      position: sticky;
+      top: 0;
       h5 {
         color: #2a254b;
         font-size: 1rem;
